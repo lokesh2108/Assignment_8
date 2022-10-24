@@ -1,4 +1,8 @@
 /*eslint-env browser*/
+var $ = function(id) {
+    "use strict";
+    return window.document.getElementById(id);
+}
 
 var employeeList = new Array();
     employeeList.push(["Sally Smith","Quality Assurance",3423]);
@@ -19,10 +23,7 @@ window.addEventListener("load", function () {
     });
 });
 
-var $ = function(id) {
-    "use strict";
-    return window.document.getElementById(id);
-}
+
 
 function addEmployee(name, title, extension) {
     "use strict";
