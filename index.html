@@ -3,9 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment 08</title>
+    <link href="style/styles.css" rel="stylesheet">
     <script src="js/employee-management.js"></script>
 </head>
 <body>
-    
+    <main>
+        <header>The Employee Management Applications</header>
+        <h4>Add Employee</h4>
+        <form id="AddEmployee_form">
+            <table id="EmployeeTable">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="name"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Title:</td>
+                    <td><input type="text" id="title"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Extension:</td>
+                    <td><input type="text" id="extension"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" id="Button_add" value="Add"></td>
+                </tr>
+            </table>
+        </form>
+        <h5 id="Count_inTable"></h5>
+        <table id="Display">
+            <tr>
+                <th>Name</th>
+                <th>Title</th>
+                <th>Extension</th>
+                <th></th>
+            </tr>
+
+        </table>
+    </main>
 </body>
 </html>

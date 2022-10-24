@@ -1,0 +1,68 @@
+body {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#EmployeeTable td {
+    padding: 4px;
+}
+
+header {
+    font-size: 20px;
+}
+
+#EmployeeTable td:last-of-type {
+    float: right;
+}
+
+
+#name, #title, #extension {
+    border: 2px solid #008CBA;
+    height: 19px;
+    width: 175px;
+}
+
+#Button_add {
+    background-color: #008CBA;
+    border: 2px solid #008CBA;
+    color:white;
+    padding: 8px 22px;
+    width: 95px;
+    font-size: 15px;
+}
+
+#Display {
+    width:600px;
+}
+
+#Display tr{
+    height: 32px;
+}
+
+#Display th{
+    width: 170px;
+    background-color: #008CBA;
+    color:white;
+}
+
+#Display tr:nth-of-type(even) {
+    background-color: #a0d1e6;
+}
+
+#Display tr:nth-of-type(odd) {
+    background-color: #dadcd2;
+}
+
+span {
+    color: red;
+}
+
+.del {
+    background-color: #008CBA;
+    border: 1px solid #008CBA;
+    color: white;
+    font-size: 13px;
+    width: 80px;
+    padding: 3px 0;
+    margin: 7px 40px;
+} 
